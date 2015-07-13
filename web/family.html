@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>F2F | My Family</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="logo.png">
+    <!-- core bootstrap style guide -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- animation style guide -->
+    <link rel="stylesheet" href="css/animate.css" />
+    <!-- Load jQuery UI CSS  -->
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+	<!-- custom style guide for family card -->
+    <link rel="stylesheet" href="css/family.css" />
+	
+	<style type="text/css">
+	.familyTop-row {
+		background: url(<?php echo $img_family-banner; ?>);
+	}
+	.familyId {
+		background: url(<?php echo $img_family-iid; ?>;
+	}
+	</style>
+	
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+	<![endif]-->
+  </head>
+  <body>  
+  	<div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <a href="search.html" class="navbar-brand">Family to Family</a>
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            <div class="collapse navbar-collapse navHeaderCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="search.html">Signup/Login</a></li>
+                    <li><a href="search.html">Connect</a></li>
+               </ul>
+          </div>
+        </div>
+ 	</div>
+	
+	<div class="family-card-image col-lg-12 col-sm-12 col-xs-12">
+		<img alt="" src="file:\\D:\Userfiles\lrigardcerison\FtoF\web\img\Family1.jpg"/>
+	</div>
+		
+	<div class="content container">
+		<div class="family-card container">	
+			<div class="family-summary col-lg-12 col-sm-12 col-xs-12">
+				<div class="col-lg-2 col-sm-2 col-xs-2">
+					<img alt="" src="file:\\D:\Userfiles\lrigardcerison\FtoF\web\img\IdCard1.png" />
+				</div>
+				<div class="family-highlight col-lg-6 col-sm-6 col-xs-6">
+					<h3>Name</h3>
+					<h4>Location</h4>
+					<p>8 services</p>
+				</div>
+				<div class="family-rating col-lg-2 col-sm-2 col-xs-2">
+					<img alt="" src="file:\\D:\Userfiles\lrigardcerison\FtoF\web\img\star.png" />
+				</div>
+				<div class="sharing col-lg-2 col-sm-2 col-xs-2">Share - NOT IN MVP ???</div>
+			</div>
+			
+			<div class="family-description col-lg-12 col-sm-12 col-xs-12">
+				<h4>Family Description</h4>
+				<p>Très bel appartement 8ème étage sur 8. Face mer promenade des anglais, proche aéroport- gare, commerces, 2 pièces, cuisine ouverte , lit 180 rétractable, TV Hifi, terrasse 7m2. Grande SDB douche italienne, Chambre à l’arrière lit 140 Parking voiture.</p>
+			</div>
+		</div>
+		
+		<div class="services container col-lg-12 col-sm-12 col-xs-12">
+			<div class="service-image col-lg-2 col-sm-2 col-xs-2" >
+				<img alt="" src="file:\\D:\Userfiles\lrigardcerison\FtoF\web\img\Baby_trolley_512.png" />
+			</div>
+			<div class="service-description col-lg-6 col-sm-6 col-xs-6">
+				<h4>Strolley rental <span class="service-price"> 25 euros </span></h4>
+				<p>Super trolley for super baby !!! Blablalbalblalblabla.................................</p>
+			</div>
+			<div class="service-date col-lg-2 col-sm-2 col-xs-2">
+				<div class="formSubmission">
+					<form>
+						<label>
+							<input placeholder="Arrival" type="text" name="arrival" id="datepickerArrival" value="">
+						</label>
+						<label>
+							<input placeholder="Departure" type="text" name="departure" id="datepickerDeparture" value="">
+						</label>
+					</form>
+				</div>
+			</div>
+			<div class="service-price col-lg-1 col-sm-1 col-xs-1"><p>Service price</p></div>
+			<div class="service-basket col-lg-1 col-sm-1 col-xs-1">
+				<img alt="" src="file:\\D:\Userfiles\lrigardcerison\FtoF\web\img\Add_to_Cart.png" />
+			</div>
+		</div>
+		
+		<div class="reviews container col-lg-12 col-sm-12 col-xs-12">
+			<h3>Reviews</h3>
+			<div class="reviews-summary col-lg-12 col-sm-12 col-xs-12">
+				<div class="col-lg-4 col-sm-4 col-xs-4">
+					<h4>8 reviews</h4>
+				</div>
+				<div class="col-lg-4 col-sm-4 col-xs-4">
+					<img alt="" src="file:\\D:\Userfiles\lrigardcerison\FtoF\web\img\star.png" />
+				</div>
+				<div class="col-lg-4 col-sm-4 col-xs-4"><span/></div>
+			</div>
+			<div class="reviews-detail col-lg-12 col-sm-12 col-xs-12">
+				<div class="review-comment col-lg-8 col-sm-8 col-xs-8">
+					<p>My comments here</p>
+				</div>	
+				<div class="review-rating col-lg-4 col-sm-4 col-xs-4">		
+					<table style="width:100%">
+						<tr>
+							<td>Criteria</td>
+							<td><img alt="" src="file:\\D:\Userfiles\lrigardcerison\FtoF\web\img\star.png"/></td>
+						 </tr>
+						<tr>
+							<td>Criteria</td>
+							<td><img alt="" src="file:\\D:\Userfiles\lrigardcerison\FtoF\web\img\star.png"/></td>
+						 </tr>
+					</table> 
+				</div>	
+			</div>
+		</div>
+	</div>
+	<div class="navbar navbar-default navbar-static-bottom">
+    	<div class="container">
+        	<p class="navbar-text pull-left">Copyright © Family to Family. All rights reserved.</p>
+            <a class="navbar-btn btn-danger btn pull-right" href="http://youtube.com">Subscribe</a>
+        </div>
+    </div>
+  </body>
+  </html>

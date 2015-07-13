@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+.navbar{
+	margin-bottom:0px;
+	background-color:#ff7300;
+	padding-top:6px;
+}
+.navbar-inverse .navbar-brand {
+	color:#ffffff;
+}
+
+.navbar-inverse{
+	border:none;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color:#F4EFEF;
+	font-size:1.1em;
+	font-weight:bold;
+}
+
+#datepickerArrival ,#datepickerDeparture{
+	width:160px;
+}
+
+/* Family page CSS */
+.family-card-image{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.family-card-image img{
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.family-rating{
+	padding-top: 10px;
+}
+
+.family-description{
+	background-color: #f0f0f0;
+	color:#8D8D8D;
+	margin: 15px;
+}
+
+.services  img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.service-image{
+	width: 100px;
+	border-radius: 15px;
+	border: 2px solid #ff7300;
+}
+
+.service-price{
+	color:#ff7300;	
+}
+
+.service-basket{
+	width: 80px;
+}
+
+h3 {
+	color: 9cd5e4 !important;
+}
+
+a {
+	color: 9cd5e4;
+}
